@@ -74,3 +74,4 @@ $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/realme/oscar/oscar-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
